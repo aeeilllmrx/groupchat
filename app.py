@@ -92,7 +92,11 @@ demo = gr.Interface(
     inputs=gr.Image(type="filepath"),
     outputs=["text"],
     title="groupchat",
+<<<<<<< HEAD
     description="Upload your screenshot on the left and we'll give you advice on the right."
+=======
+    description="Upload your screenshot and we'll give you advice."
+>>>>>>> 98112c03faedf650ff4a6fc8a9c22765c663fbbe
 )
 
 demo.launch(share=True)
